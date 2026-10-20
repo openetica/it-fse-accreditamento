@@ -1,0 +1,43 @@
+﻿{
+  "appVendor": "OPENETICA_SRL",
+  "appID": "QuickWebConnect",
+  "appVersion": "0.9.23.106",
+  "results": [
+    {
+      "id": 531,
+      "ts": "2026-10-20T09:11:03Z",
+      "traceId": "2305ad59-432d-4713-a416-fc799f97c796",
+      "workflowInstanceId": "2.16.840.1.113883.2.9.2.130.4.4.b887c5777b82ff6571b15723021d1ff7ff4a74f03e691c29c2ccea0eca9d3e26.524d043e6b^^^^urn:ihe:iti:xdw:2013:workflowInstanceId",
+      "files": [
+        "TELEV_CT1_VALIDATION.pdf"
+      ]
+    },
+    {
+      "id": 532,
+      "ts": "2026-10-20T09:12:45Z",
+      "traceId": "2583bee4-5205-475a-aae7-390f10b92ffa",
+      "workflowInstanceId": "2.16.840.1.113883.2.9.2.130.4.4.a2c815a6ff42892a485224c97eef0d929e6d233fd57d64b06664e3b2d4253ee8.fc08df6f72^^^^urn:ihe:iti:xdw:2013:workflowInstanceId",
+      "files": [
+        "TELEV_CT2_VALIDATION.pdf"
+      ]
+    },
+    {
+      "id": 549,
+      "ts": "2026-10-20T09:13:54Z",
+      "traceId": "4dd2a304-5176-42ff-bf1a-b5b908cb1c4a",
+      "workflowInstanceId": "",
+      "files": [
+        "TELEV_KO_VALIDATION.pdf"
+      ]
+    },
+    {
+      "id": 550,
+      "ts": "2026-10-20T09:14:44Z",
+      "traceId": "8671a2bf-165a-4374-bda2-abce17553b79",
+      "workflowInstanceId": "",
+      "files": [
+        "TELEV_CT1_VALIDATION.pdf"
+      ]
+    }
+  ]
+}

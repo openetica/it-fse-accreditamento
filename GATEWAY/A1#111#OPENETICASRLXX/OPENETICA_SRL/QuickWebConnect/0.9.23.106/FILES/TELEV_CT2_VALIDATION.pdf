@@ -1,0 +1,282 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /Names 7 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842]
+   /Contents 4 0 R
+   /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >>
+>>
+endobj
+4 0 obj
+<< /Length 1426 >>
+stream
+BT
+/F1 16 Tf
+50 780 Td
+(ASL PESCARA) Tj
+/F2 12 Tf
+0 -24 Td
+(REFERTO DI TELEVISITA / TELEMEDICINA - FSE 2.0) Tj
+/F1 10 Tf
+0 -20 Td
+((Documento Clinico Tipo: TELEV - LOINC: 75496-0) - N. Visita: 2026-TEL-00130) Tj
+0 -15 Td
+(Data Esecuzione Televisita: 20/10/2026 11:12:39 CET) Tj
+0 -30 Td
+/F2 11 Tf
+(DATI ASSISTITO / PAZIENTE:) Tj
+/F1 10 Tf
+0 -16 Td
+  (Nominativo: Mario Rossi   |   Codice Fiscale: RSSMRA22A01A399Z) Tj
+0 -15 Td
+  (Identificativo Struttura: ASL Pescara - Codice: 130101) Tj
+0 -25 Td
+/F2 11 Tf
+(MEDICO REFERTANTE:) Tj
+/F1 10 Tf
+0 -16 Td
+  (Medico: Dott. Giuseppe Bianchi   |   Codice Fiscale: PROVAX00X00X000Y) Tj
+0 -15 Td
+  (Specialita: Diabetologia ed Endocrinologia Territoriale) Tj
+0 -25 Td
+/F2 11 Tf
+(ANAMNESI E QUESITO DIAGNOSTICO TELEMEDICINA:) Tj
+/F1 10 Tf
+0 -16 Td
+  (Visita specialistica di controllo cardiologico in telemedicina. Monitoraggio pressorio nei limiti.) Tj
+0 -25 Td
+/F2 11 Tf
+(VALUTAZIONE CLINICA E PRESCRIZIONE TERAPEUTICA:) Tj
+/F1 10 Tf
+0 -16 Td
+  (Prosecuzione terapia antipertensiva. Monitoraggio domiciliare PA due volte a settimana.) Tj
+0 -30 Td
+/F2 9 Tf
+(NOTE DI CONFORMITA FSE 2.0:) Tj
+/F1 8 Tf
+0 -14 Td
+(Documento informatico conforme alle Linee Guida FSE 2.0 e AgID ModI.) Tj
+0 -12 Td
+(Fornitore Software: OPENETICA_SRL - QuickWebConnect v0.9.23.106) Tj
+0 -12 Td
+(Impronta di validazione generata il 2026-10-20T11:12:39Z) Tj
+ET
+
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /EmbeddedFiles 8 0 R >>
+endobj
+8 0 obj
+<< /Names [(cda.xml) 9 0 R] >>
+endobj
+9 0 obj
+<< /Type /Filespec /F (cda.xml) /UF (cda.xml) /EF << /F 10 0 R /UF 10 0 R >> /Desc (Clinical Document Architecture) >>
+endobj
+10 0 obj
+<< /Type /EmbeddedFile /Subtype /text#2Fxml /Length 7590 /Params << /Size 7590 >> >>
+stream
+<?xml version="1.0" encoding="UTF-8"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdtc="urn:hl7-org:sdtc" xsi:schemaLocation="urn:hl7-org:v3 CDA.xsd">
+  <realmCode code="IT"/>
+  <typeId root="2.16.840.1.113883.1.3" extension="POCD_MT000040UV02"/>
+  <templateId root="2.16.840.1.113883.2.9.10.1.9.1" extension="1.1" assigningAuthorityName="HL7 Italia"/>
+  <id root="2.16.840.1.113883.2.9.2.130.4.4" extension="2026-TEL-00130" assigningAuthorityName="ASL Pescara"/>
+  <code code="11488-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Nota di consulto">
+    <translation code="75496-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Televisita"/>
+  </code>
+  <title>Referto di Specialistica Ambulatoriale - Televisita</title>
+  <sdtc:statusCode code="active"/>
+  <effectiveTime value="20261020111239+0100"/>
+  <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" codeSystemName="HL7 Confidentiality" displayName="Normal"/>
+  <languageCode code="it-IT"/>
+  <setId root="2.16.840.1.113883.2.9.2.130.4.4" extension="2026-TEL-00130" assigningAuthorityName="ASL Pescara"/>
+  <versionNumber value="1"/>
+  <recordTarget>
+    <patientRole>
+      <id root="2.16.840.1.113883.2.9.4.3.2" extension="RSSMRA22A01A399Z" assigningAuthorityName="MEF"/>
+      <addr use="H">
+        <country>100</country>
+        <state>130</state>
+        <county>PE</county>
+        <city>Pescara</city>
+        <postalCode>65124</postalCode>
+        <streetAddressLine>Via Roma 1</streetAddressLine>
+      </addr>
+      <patient>
+        <name>
+          <family>Rossi</family>
+          <given>Mario</given>
+        </name>
+        <administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1" codeSystemName="HL7 AdministrativeGender" displayName="MASCHIO"/>
+        <birthTime value="19220101"/>
+      </patient>
+    </patientRole>
+  </recordTarget>
+  <author>
+    <time value="20261020111239+0100"/>
+    <assignedAuthor classCode="ASSIGNED">
+      <id root="2.16.840.1.113883.2.9.4.3.2" extension="PROVAX00X00X000Y" assigningAuthorityName="MEF"/>
+      <telecom use="HP" value="mailto:medico.pescara@example.com"/>
+      <assignedPerson>
+        <name>
+          <family>Bianchi</family>
+          <given>Giuseppe</given>
+          <prefix>Dott.</prefix>
+        </name>
+      </assignedPerson>
+      <representedOrganization>
+        <id root="2.16.840.1.113883.2.9.4.1.2" extension="130101" assigningAuthorityName="Ministero della Salute"/>
+        <name>ASL Pescara</name>
+      </representedOrganization>
+    </assignedAuthor>
+  </author>
+  <custodian>
+    <assignedCustodian>
+      <representedCustodianOrganization>
+        <id root="2.16.840.1.113883.2.9.4.1.2" extension="130101" assigningAuthorityName="Ministero della Salute"/>
+        <name>ASL Pescara</name>
+      </representedCustodianOrganization>
+    </assignedCustodian>
+  </custodian>
+  <legalAuthenticator>
+    <time value="20261020111239+0100"/>
+    <signatureCode code="S"/>
+    <assignedEntity>
+      <id root="2.16.840.1.113883.2.9.4.3.2" extension="PROVAX00X00X000Y" assigningAuthorityName="MEF"/>
+      <assignedPerson>
+        <name>
+          <family>Bianchi</family>
+          <given>Giuseppe</given>
+          <prefix>Dott.</prefix>
+        </name>
+      </assignedPerson>
+    </assignedEntity>
+  </legalAuthenticator>
+  <componentOf>
+    <encompassingEncounter>
+      <id root="2.16.840.1.113883.2.9.2.130.4.6" extension="2026-TEL-00130" assigningAuthorityName="ASL Pescara"/>
+      <effectiveTime>
+        <low value="20261020111239+0100"/>
+        <high value="20261020111239+0100"/>
+      </effectiveTime>
+      <location>
+        <healthCareFacility>
+          <id root="2.16.840.1.113883.2.9.4.1.6" extension="130101.XX.49" assigningAuthorityName="Ministero della Salute"/>
+          <location>
+            <name>ASL Pescara - Telemedicina</name>
+            <addr>
+              <country>100</country>
+              <state>130</state>
+              <county>PE</county>
+              <city>Pescara</city>
+              <postalCode>65124</postalCode>
+              <streetAddressLine>Via Roma 1</streetAddressLine>
+            </addr>
+          </location>
+          <serviceProviderOrganization>
+            <id root="2.16.840.1.113883.2.9.4.1.2" extension="130101" assigningAuthorityName="Ministero della Salute"/>
+            <name>ASL Pescara</name>
+          </serviceProviderOrganization>
+        </healthCareFacility>
+      </location>
+    </encompassingEncounter>
+  </componentOf>
+  <component>
+    <structuredBody>
+      <component typeCode="COMP">
+        <section ID="STORIA_CLINICA">
+          <code code="11329-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Storia Clinica"/>
+          <title>Anamnesi e Storia Clinica</title>
+          <text><paragraph>Visita specialistica di controllo cardiologico in telemedicina. Monitoraggio pressorio nei limiti.</paragraph></text>
+        </section>
+      </component>
+      <component typeCode="COMP">
+        <section ID="PRESTAZIONI">
+          <code code="62387-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Interventi"/>
+          <title>Prestazioni</title>
+          <text>
+            <paragraph>
+              <caption>Prestazioni Eseguite</caption>
+            </paragraph>
+            <list>
+              <item ID="Prestazione-1">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Prestazione 1</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th>Codice Prestazione</th>
+                      <td>89.01</td>
+                    </tr>
+                    <tr>
+                      <th>Descrizione Prestazione eseguita</th>
+                      <td>Visita di controllo in telemedicina</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </item>
+            </list>
+          </text>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <code code="89.01" codeSystem="2.16.840.1.113883.6.2" codeSystemName="ICD-9-CM" displayName="Visita di controllo">
+                <originalText><reference value="#Prestazione-1"/></originalText>
+              </code>
+              <statusCode code="completed"/>
+              <effectiveTime value="20261020111239+0100"/>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <component typeCode="COMP">
+        <section ID="REFERTO">
+          <code code="47045-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Referto"/>
+          <title>Referto</title>
+          <text><paragraph>Visita specialistica di controllo cardiologico in telemedicina. Monitoraggio pressorio nei limiti.</paragraph></text>
+        </section>
+      </component>
+      <component typeCode="COMP">
+        <section ID="CONCLUSIONI">
+          <code code="55110-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Conclusioni"/>
+          <title>Conclusioni e Terapia</title>
+          <text><paragraph>Prosecuzione terapia antipertensiva. Monitoraggio domiciliare PA due volte a settimana.</paragraph></text>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</ClinicalDocument>
+
+endstream
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000010 00000 n 
+0000000075 00000 n 
+0000000135 00000 n 
+0000000283 00000 n 
+0000001767 00000 n 
+0000001867 00000 n 
+0000001972 00000 n 
+0000002017 00000 n 
+0000002066 00000 n 
+0000002203 00000 n 
+trailer
+<< /Size 11 /Root 1 0 R >>
+startxref
+9918
+%%EOF
